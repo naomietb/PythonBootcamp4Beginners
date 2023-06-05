@@ -1,0 +1,10 @@
+import os
+# Clearing the Screen
+os.system('cls')
+
+f1 = input("Enter first name ")
+f2 = input("Enter second name ")
+if(f1 == f2 ):
+    print(f" {f1} is the same as {f2}")
+else:
+    print(f"{f1} is not the same as {f2} ")
